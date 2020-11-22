@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "191191688355",
+    "firebase_url": "https://cryptomessage-16536.firebaseio.com",
+    "project_id": "cryptomessage-16536",
+    "storage_bucket": "cryptomessage-16536.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191191688355:android:b277fe8a5946ef3cc20b16",
+        "android_client_info": {
+          "package_name": "com.example.cryptomessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191191688355-tv7c72fm82qc213fsgb822k5v8ia3bgr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cryptomessage",
+            "certificate_hash": "456cf7bf285719d7755bfdc34653f7738f9f3b28"
+          }
+        },
+        {
+          "client_id": "191191688355-s7eetbf18nou3snqhm8o4ug24vbddndo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRhHb6SaE36X-XymsVOcnqGY__jUY-69Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191191688355-s7eetbf18nou3snqhm8o4ug24vbddndo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

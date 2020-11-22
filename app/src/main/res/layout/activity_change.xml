@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:gravity="center_vertical"
+    android:layout_height="match_parent"
+    tools:context=".ChangeActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aes"
+        android:text="SEND MESSAGE BY AES"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/des"
+        android:layout_below="@+id/aes"
+        android:text="SEND MESSAGE BY DES"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/md5"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/des"
+        android:text="SEND MESSAGE BY MD5"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/twofish"
+        android:text="SEND MESSAGE BY TWO FISH"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/md5"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rsa"
+        android:layout_below="@id/twofish"
+        android:text="SEND MESSAGE BY RSA"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        />
+
+
+
+</RelativeLayout>
