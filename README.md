@@ -1,2 +1,3 @@
 # CryptoMessage
-# Currently Working with DES
+# Done with AES , DES and normal messages
+# Currently working on MD5
